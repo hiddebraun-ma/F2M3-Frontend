@@ -1,0 +1,30 @@
+title: Frontend programming
+description: "Extra verdieping in HTML, CSS en Javascript"
+email: h.braun@ma-web.nl
+
+github_username:  hiddebraun-ma
+
+# Build settings
+theme: "just-the-docs"
+remote_theme: "pmarsceill/just-the-docs"
+
+plugins:
+  - jekyll-feed
+
+source: pages
+exclude: [ "sources", "docs", "code-examples", "start.sh", ".idea" ]
+
+# Config theme
+# See: https://pmarsceill.github.io/just-the-docs/docs/configuration/
+# color_scheme: dark
+
+defaults:
+  -
+    values:
+      layout: "page"
+
+logo: "/assets/images/logo.png"
+
+
+# Custom data
+

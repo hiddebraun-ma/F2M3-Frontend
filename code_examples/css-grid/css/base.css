@@ -1,0 +1,19 @@
+@import url('//fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+body {
+    background: #333333;
+    font-family: 'Roboto Mono', sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+/* Alles div elementen die direct een child zijn van de #dashboard div*/
+#dashboard > div {
+    background-color: crimson;
+    padding: 5px 10px;
+    color: #ffffff;
+    border: 1px solid black;
+    font-size: 20px;
+    font-weight: bold;
+}
+

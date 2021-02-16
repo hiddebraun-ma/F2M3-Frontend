@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Dashboard</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #cdcdcd;
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        h1, h2, h3, h4, h5 {
+            margin-top: 0;
+        }
+
+        #dashboard {
+            display: grid;
+            padding: 20px;
+            border-radius: 5px;
+            grid-template-columns: 1fr;
+            grid-template-rows: 150px 50px 200px 200px 200px 50px;
+            grid-template-areas: "header"
+                                 "sidebar"
+                                 "lights"
+                                 "temperature"
+                                 "clock"
+                                 "playlist";
+
+            grid-gap: 20px;
+        }
+
+        @media screen and (min-width: 600px) {
+            #dashboard {
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 250px 1fr 100px;
+                grid-template-areas: "header  header"
+                                     "lights  temperature"
+                                     "clock   playlist"
+                                     "sidebar sidebar";
+            }
+        }
+
+
+        @media screen and (min-width: 978px) {
+            #dashboard {
+                grid-template-columns: 150px 1fr 1fr 1fr;
+                grid-template-rows: 250px 1fr 100px;
+                grid-template-areas: "sidebar header header header"
+                                 "sidebar lights temperature clock"
+                                 "sidebar playlist playlist playlist";
+            }
+        }
+
+        .item {
+            border-radius: 3px;
+            background-color: #ffffff;
+            padding: 10px;
+        }
+
+        .sidebar {
+            grid-area: sidebar;
+        }
+
+        .header {
+            grid-area: header;
+            background-image: url(images/rain.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .header h1, .header h2 {
+            color: #ffffff;
+            text-shadow: 1px 2px 4px #333;
+            margin: 0;
+        }
+
+        .lights {
+            grid-area: lights;
+        }
+
+        .temperature {
+            grid-area: temperature;
+        }
+
+        .clock {
+            grid-area: clock;
+        }
+
+        .playlist {
+            grid-area: playlist;
+        }
+
+
+    </style>
+</head>
+<body>
+
+<div id="dashboard">
+    <div class="item sidebar">Sidebar</div>
+    <div class="item header">
+        <h1>Dinsdag 16 februari 2020</h1>
+        <h2>13&deg;</h2>
+    </div>
+    <div class="item clock">Clock</div>
+    <div class="item temperature">Temperature</div>
+    <div class="item lights">Lights</div>
+    <div class="item playlist">Playlist</div>
+</div>
+
+</body>
+</html>
