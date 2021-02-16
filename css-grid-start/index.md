@@ -1,5 +1,5 @@
 ---
-title: CSS Grid
+title: CSS Grid Start
 permalink: :path/:basename
 has_children: true
 has_toc: false
@@ -22,6 +22,8 @@ Dit dashboard gaan we (in de basis) maken met CSS Grid in deze lessen.
 
 Gebruik deze informatie en video's om het ontwerp van je Duurzaam Huis dashboard te vertalen naar HTML en CSS met de kennis over CSS Grid!
 {: .fs-6 .text-green-200 }
+
+[Aan de slag](1-grid-intro){: .btn .btn-green .fs-6 }
 
 ![Dashboard](images/dashboard3.png)
 

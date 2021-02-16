@@ -1,13 +1,14 @@
 ---
 title: Grid rijen
-permalink: :path/:basename
-parent: CSS Grid
-nav_order: 3
+parent: CSS Grid Start
+nav_order: 4
 ---
 
 # {{ page.title }}
 
 Bekijk eerst de video's **fullscreen**. Doe daarna de opdrachten.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jCHj2yOGomM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 

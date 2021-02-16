@@ -1,8 +1,7 @@
 ---
-title: Grid start
-permalink: :path/:basename
-parent: CSS Grid
-nav_order: 1
+title: Grid container
+parent: CSS Grid Start
+nav_order: 2
 ---
 
 # {{ page.title }}
@@ -18,6 +17,7 @@ Bekijk eerst video **fullscreen** en doe daarna de opdrachten.
 - [ ] Maak zoals in de video een HTML-bestand met een `<style>` block.
 - [ ] Maak in de HTML de *grid container* div (zie video).
 - [ ] Maak in de *grid container* div nu minimaal 10 *grid items*
+- [ ] Geef de *grid items* met een CSS class dezelfde achtergrondkleur, tekstkleur en een beetje padding.
 
 ---
 
@@ -37,22 +37,28 @@ Je moet zelf bedenken waar ze moeten komen. **Gebruik de video hierbij!**.
 #### Grid items
 
 ```html
-<div class="item item1">1</div>
-<div class="item item2">2</div>
-<div class="item item3">3</div>
-<div class="item item4">4</div>
-<div class="item item5">5</div>
-<div class="item item6">6</div>
-<div class="item item7">7</div>
-<div class="item item8">8</div>
-<div class="item item9">9</div>
-<div class="item item10">10</div>
+<div class="item">1</div>
+<div class="item">2</div>
+<div class="item">3</div>
+<div class="item">4</div>
+<div class="item">5</div>
+<div class="item">6</div>
+<div class="item">7</div>
+<div class="item">8</div>
+<div class="item">9</div>
+<div class="item">10</div>
+```
+
+```css
+.item {
+    background-color: maroon;
+    color: #ffffff;
+    padding: 5px;
+}
 ```
 
 ---
-<span class="fs-6">
-[Grid kolommen](2-grid-columns){: .btn .btn-green }
-</span>
 
+[Grid kolommen](3-grid-columns){: .btn .btn-green .fs-6 }
 
 
