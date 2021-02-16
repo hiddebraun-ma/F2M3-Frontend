@@ -11,8 +11,7 @@ remote_theme: "pmarsceill/just-the-docs"
 plugins:
   - jekyll-feed
 
-source: pages
-exclude: [ "sources", "docs", "code-examples", "start.sh", ".idea" ]
+exclude: [ "sources", "code-examples", "start.sh", ".idea" ]
 
 # Config theme
 # See: https://pmarsceill.github.io/just-the-docs/docs/configuration/
