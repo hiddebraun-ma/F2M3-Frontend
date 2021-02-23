@@ -7,8 +7,12 @@ body {
     font-size: 18px;
 }
 
+/*#dashboard > div {*/
+/*    background-color: crimson;*/
+/*}*/
+
 /* Alles div elementen die direct een child zijn van de #dashboard div*/
-#dashboard > div {
+.item {
     background-color: crimson;
     padding: 5px 10px;
     color: #ffffff;

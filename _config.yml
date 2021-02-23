@@ -22,8 +22,7 @@ defaults:
     values:
       layout: "page"
 
+
 logo: "/assets/images/logo.png"
-
-
 # Custom data
 
