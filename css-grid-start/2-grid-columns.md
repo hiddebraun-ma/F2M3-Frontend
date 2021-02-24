@@ -6,9 +6,9 @@ nav_order: 3
 
 # {{ page.title }}
 
-Bekijk eerst de video **fullscreen**. Doe daarna de opdrachten.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1S9iVTDY4iA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% include youtube.md video="1S9iVTDY4iA" %}
+
 ---
 
 ## Opdrachten

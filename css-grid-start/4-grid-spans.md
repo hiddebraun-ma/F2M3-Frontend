@@ -6,9 +6,7 @@ nav_order: 5
 
 # {{ page.title }}
 
-Bekijk eerst de video's **fullscreen**. Doe daarna de opdrachten.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/djMjCaEcHCU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% include youtube.md video="djMjCaEcHCU" %}
 
 ---
 
@@ -17,8 +15,11 @@ Bekijk eerst de video's **fullscreen**. Doe daarna de opdrachten.
 {: .text-green-100}
 
 Met de kennis uit de video: 
-- [ ] Pas je grid aan zodat in ieder geval 1 vakje in het grid meerdere kolommen breed is.
- 
+- [ ] Pas je grid aan, zodat in ieder geval 1 vakje in het grid **meerdere kolommen breed** is, zoals [in dit voorbeeld](images/column-span-example.png){: target="_blank" }
+- [ ] **Uitdaging:** Kijk of je ook een rij over meerdere rijen kan laten overlappen met `grid-row-start` en `grid-row-end`.
+
+
+
 ---
 
 {% include bewijs.md %}
