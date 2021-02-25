@@ -7,13 +7,7 @@ nav_order: 4
 
 # {{ page.title }}
 
-**TODO**
-
-- Korte intro over media queries
-- Toevoegen media query voorbeeld: bgcolor
-- Mobile inspector laten zien: Hey hij schaalt nu alles binnen die breedte
-- Toevoegen Meta tag: <meta name="viewport" content="width=device-width, initial-scale=1">
-- Laten zien: Veelgebruikte media queries
+{% include youtube.md video="kZCNe-Vsjig" %}
 
 ---
 

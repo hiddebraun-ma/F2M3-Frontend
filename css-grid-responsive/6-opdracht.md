@@ -13,3 +13,5 @@ Misschien ook wel een tablet (ipad e.d.) versie.
 ---
 
 {% include bewijs.md %}
+
+{% include assignment-teams.md week="Week 3" %}
