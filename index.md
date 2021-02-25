@@ -8,7 +8,7 @@ Op deze website vind je korte video tutorials met uitleg bij de lessen Frontend 
 
 *Bekijk per week alle video's, doe de korte opdrachten en oefeningen bij de video's en zet deze in je frontend repository op een duidelijk plek.*{: .fs-6 .text-green-100 }
 
-*Bij elke les/onderwerp hoort een eindopdracht die je ook maakt en inlevert, hiermee toon je aan dat je de uitleg snapt en kan toepassen in je code*{: .fs-6 .text-blue-000 }
+*Bij elke les/onderwerp hoort een aflsuitende opdracht. Deze maak je lever je in. Zo toon je aan dat je de uitleg snapt en kan toepassen in je eigen code.*{: .fs-6 .text-blue-000 }
 
 
 ---

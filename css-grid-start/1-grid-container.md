@@ -12,8 +12,8 @@ nav_order: 2
 
 ### Opdrachten
 
-- [ ] Maak zoals in de video een HTML-bestand met een `<style>` block.
-- [ ] Maak in de HTML de *grid container* div (zie video).
+- [ ] Maak zoals in de video een nieuw HTML-bestand met een `<style>` block in de `<head>`.
+- [ ] Maak in de HTML een *grid container* div (zie video).
 - [ ] Maak in de *grid container* div nu minimaal 10 *grid items*
 - [ ] Geef de *grid items* met een CSS class dezelfde achtergrondkleur, tekstkleur en een beetje padding.
 
@@ -23,8 +23,8 @@ nav_order: 2
 
 ### Hulp
 
-Hier vind je stukjes code die je kunt gebruiken in je oplossing.
-Je moet zelf bedenken waar ze moeten komen. **Gebruik de video hierbij!**.
+Hier vind je stukjes code die je kunt gebruiken in je oplossing. 
+Je moet zelf bedenken waar dit moeten komen. **Gebruik de video hierbij!**.
 
 #### Grid container
 

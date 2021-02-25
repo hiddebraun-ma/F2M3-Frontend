@@ -1,2 +1,2 @@
 #!/bin/bash
-bundle exec jekyll serve --config _config.yml
+bundle exec jekyll serve -l --config _config.yml

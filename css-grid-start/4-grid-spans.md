@@ -15,7 +15,7 @@ nav_order: 5
 {: .text-green-100}
 
 Met de kennis uit de video: 
-- [ ] Pas je grid aan, zodat in ieder geval 1 vakje in het grid **meerdere kolommen breed** is, zoals [in dit voorbeeld](images/column-span-example.png){: target="_blank" }
+- [ ] Pas je grid aan, zodat in ieder geval 1 vakje in het grid **meerdere kolommen breed** is, zoals bijvoorbeeld [in deze afbeelding](images/column-span-example.png){: target="_blank" }
 - [ ] **Uitdaging:** Kijk of je ook een rij over meerdere rijen kan laten overlappen met `grid-row-start` en `grid-row-end`.
 
 
