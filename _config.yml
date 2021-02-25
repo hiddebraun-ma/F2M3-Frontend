@@ -17,6 +17,8 @@ exclude: [ "sources", "code-examples", "start.sh", ".idea" ]
 # See: https://pmarsceill.github.io/just-the-docs/docs/configuration/
 # color_scheme: dark
 
+search_enabled: false
+
 defaults:
   -
     values:
