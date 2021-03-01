@@ -46,3 +46,15 @@ body {
     grid-area: controls;
 }
 
+
+@media screen and (min-width: 900px) {
+
+    #dashboard {
+        grid-template-columns: 200px 1fr 1fr 200px;
+        grid-template-areas: "header   header   header   header"
+                             "cost     controls controls weather"
+                             "graph    graph    kwh      weather";
+
+    }
+
+}

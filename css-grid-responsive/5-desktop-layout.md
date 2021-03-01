@@ -1,5 +1,5 @@
 ---
-title: Desktop layout
+title: Desktop layout met mediaquery
 layout: page
 parent: CSS Grid Responsive
 nav_order: 5
