@@ -18,9 +18,9 @@ nav_order: 3
 Met de kennis uit de video:
 
 - [ ] Definieer in je CSS-bestand een grid met minstens 4 kolommen en 2 rijen.
-- [ ] Gebruik de eenheden <span class="text-blue-200">px, fr en %</span> en kijk wat er gebeurt als je verschillende
+- [ ] Probeer de eenheden <span class="text-blue-200">px, fr en %</span> uit en kijk wat er gebeurt als je verschillende
   waarden invoert.
-- [ ] Geef elke *grid item* div de class *item* en een eigen item1, item2 etc class. *We kunnen ze dan beter
+- [ ] Geef elke *grid item* div de class *item* en ook een eigen *item1*, *item2* (enzovoorts) class. *Je kunt ze dan straks beter
   afzonderlijk stijlen**
 
 ---

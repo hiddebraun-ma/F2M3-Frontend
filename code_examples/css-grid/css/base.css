@@ -1,5 +1,9 @@
-@import url('//fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+/* Een extern lettertype inladen van Google: https://fonts.google.com */
 
+/* De body van het HTML document een standaard stijl geven
+Als font-family gebruik je dus de naam van het ingeladen lettertype (font)
+*/
 body {
     background: #333333;
     font-family: 'Roboto Mono', sans-serif;
@@ -7,11 +11,12 @@ body {
     font-size: 18px;
 }
 
-/*#dashboard > div {*/
-/*    background-color: crimson;*/
-/*}*/
+/* Alle div elementen die een direct "child" zijn van de div met id="dashboard" */
+#dashboard > div {
+    background-color: crimson;
+}
 
-/* Alles div elementen die direct een child zijn van de #dashboard div*/
+/* Alle elementen met de class = "item" */
 .item {
     background-color: crimson;
     padding: 5px 10px;

@@ -24,5 +24,8 @@ defaults:
 
 
 logo: "/assets/images/logo.png"
+
 # Custom data
+frontend:
+  assignments_url: "https://teams.microsoft.com/l/channel/19%3a4ef3a24e3ace4a4699d3140d2c7d37fa%40thread.tacv2/Algemeen?groupId=c5a56ea4-4924-40a3-8c81-0cc02aa4ac63&tenantId=8e600f92-30df-4667-b7c0-3f2595f3f12b"
 
