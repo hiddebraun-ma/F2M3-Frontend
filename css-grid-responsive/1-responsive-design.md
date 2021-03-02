@@ -26,6 +26,6 @@ nav_order: 2
 
 ---
 
-[Mobile first](2-mobile-first){: .btn .btn-green .fs-6 }
+[Mobile first](2-mobile-first){: .btn .btn-purple .fs-6 }
 
 

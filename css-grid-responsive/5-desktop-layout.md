@@ -15,11 +15,11 @@ nav_order: 5
 {: .text-green-100}
 
 Met de kennis uit de video: 
-- [ ] 
-
+- [ ]
 
 ---
 
 {% include bewijs.md %}
 
 
+[Opdracht](6-opdracht){: .btn .btn-purple .fs-6 }

@@ -25,5 +25,5 @@ Met de kennis uit de video:
 
 ---
 
-[Media query toevoegen voor desktop](4-media-queries){: .btn .btn-green .fs-6 }
+[Media query toevoegen voor desktop](4-media-queries){: .btn .btn-purple .fs-6 }
 

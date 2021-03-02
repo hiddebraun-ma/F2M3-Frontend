@@ -28,7 +28,7 @@ In de komende video's leer je over:
 
 ---
 
-[Responsive dashboard maken met CSS Grid](1-responsive-design){: .btn .btn-green .fs-6 }
+[Responsive dashboard maken met CSS Grid](1-responsive-design){: .btn .btn-purple .fs-6 }
 
 
 
