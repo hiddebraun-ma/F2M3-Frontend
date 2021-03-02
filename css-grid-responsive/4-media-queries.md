@@ -30,12 +30,14 @@ Met de kennis uit de video:
 
 ---
 
-## Meer info over media queries
+[Desktop versie layout maken](5-desktop-layout){: .btn .btn-purple .fs-6 }
+
+---
+
+## Meer informatie over media queries
 - [What are CSS Mediaqueries?](http://cssmediaqueries.com/what-are-css-media-queries.html){: target="_blank"}
 - [Beginner's guide to media queries](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Media_queries){: target="_blank"}
 - [W3 Schools Mediaqueries](https://www.w3schools.com/css/css_rwd_mediaqueries.asp){: target="_blank"}
 - [Voorbeelden Mediaqueries voor allerlei devices](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/){: target="_blank"}
 - [https://web.dev/responsive-web-design-basics/#viewport](https://web.dev/responsive-web-design-basics/#viewport){: target="_blank"}
 
-
-[Desktop versie layout maken](5-desktop-layout){: .btn .btn-green .fs-6 }

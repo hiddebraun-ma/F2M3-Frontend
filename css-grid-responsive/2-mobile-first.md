@@ -25,5 +25,5 @@ Met de kennis uit de video:
 
 ---
 
-[Grid areas gebruiken](3-mobile-grid-areas){: .btn .btn-green .fs-6 }
+[Grid areas gebruiken](3-mobile-grid-areas){: .btn .btn-purple .fs-6 }
 
