@@ -35,4 +35,6 @@ Gebruik je eigen afmetingen, dus denk zelf na en speel met die afmetingen! Kijk 
 ### Websites met meer uitleg en verdieping
 - [https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-rows](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-rows){:target="_blank"}
 
+---
 
+[Grid kolommen overlappen](4-grid-spans){: .btn .btn-purple .fs-6 }

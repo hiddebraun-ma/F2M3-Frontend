@@ -59,5 +59,5 @@ resized.
 
 ---
 
-[Grid rijen](4-grid-rows){: .btn .btn-green .fs-6 }
+[Grid rijen](3-grid-rows){: .btn .btn-purple .fs-6 }
 

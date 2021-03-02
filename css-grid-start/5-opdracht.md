@@ -30,3 +30,7 @@ Gebruik de kennis uit de video's en oefeningen die je net hebt gedaan!
 {% include bewijs.md %}
 
 {% include assignment-teams.md week="Week 3" %}
+
+---
+
+[Verder met CSS Grid?](6-externe-links){: .btn .btn-purple .fs-6 }
