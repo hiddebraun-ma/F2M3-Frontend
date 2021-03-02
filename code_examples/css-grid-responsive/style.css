@@ -1,0 +1,48 @@
+body {
+    background-color: antiquewhite;
+}
+
+#dashboard {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    grid-template-areas: "header   header"
+                         "cost     kwh"
+                         "weather  weather"
+                         "graph    graph"
+                         "controls controls";
+
+}
+
+.item {
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    padding: 5px;
+    min-height: 50px;
+}
+
+.header {
+    background-color: green;
+    grid-area: header;
+}
+
+.cost {
+    grid-area: cost;
+}
+
+.kwh {
+    grid-area: kwh;
+}
+
+.weather {
+    grid-area: weather;
+}
+
+.graph {
+    grid-area: graph;
+}
+
+.controls {
+    grid-area: controls;
+}
+
