@@ -58,6 +58,6 @@ Je moet zelf bedenken waar dit moeten komen. **Gebruik de video hierbij!**.
 
 ---
 
-[Grid kolommen](3-grid-columns){: .btn .btn-green .fs-6 }
+[Grid kolommen](2-grid-columns){: .btn .btn-purple .fs-6 }
 
 

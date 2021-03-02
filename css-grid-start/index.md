@@ -23,7 +23,7 @@ Gebruik deze informatie en video's om het ontwerp van je Duurzaam Huis dashboard
 {: .fs-6 .text-green-200 }
 
 ---
-[Aan de slag met CSS Grid](1-grid-container){: .btn .btn-green .fs-6 }
+[Aan de slag met CSS Grid](1-grid-container){: .btn .btn-purple .fs-6 }
 
 ---
 
