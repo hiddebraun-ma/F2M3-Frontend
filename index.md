@@ -4,6 +4,8 @@ title: Frontend programming
 nav_order: 1
 ---
 
+# Duurzaam Huis - {{ page.title }}
+
 Op deze website vind je korte video tutorials met uitleg bij de lessen Frontend programming in de module Duurzaam Huis.
 
 *Bekijk per week alle video's, doe de korte opdrachten en oefeningen bij de video's en zet deze in je frontend repository op een duidelijk plek.*{: .fs-6 .text-green-100 }
