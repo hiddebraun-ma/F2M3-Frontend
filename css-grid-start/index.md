@@ -1,5 +1,6 @@
 ---
 title: CSS Grid Start
+layout: page
 permalink: :path/:basename
 has_children: true
 has_toc: false

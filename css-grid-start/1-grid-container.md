@@ -1,5 +1,6 @@
 ---
 title: Grid container
+layout: page
 parent: CSS Grid Start
 nav_order: 2
 ---

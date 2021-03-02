@@ -1,5 +1,6 @@
 ---
 title: Grid rijen
+layout: page
 parent: CSS Grid Start
 nav_order: 4
 ---

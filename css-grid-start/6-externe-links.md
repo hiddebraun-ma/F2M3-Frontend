@@ -1,5 +1,6 @@
 ---
 title: Meer leren?
+layout: page
 parent: CSS Grid Start
 nav_order: 6
 ---

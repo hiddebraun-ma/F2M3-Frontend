@@ -1,5 +1,6 @@
 ---
 title: Opdracht
+layout: page
 parent: CSS Grid Start
 nav_order: 5
 ---

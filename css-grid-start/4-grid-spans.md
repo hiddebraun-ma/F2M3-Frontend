@@ -1,5 +1,6 @@
 ---
 title: Grid kolommen overlappen
+layout: page
 parent: CSS Grid Start
 nav_order: 5
 ---

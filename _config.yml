@@ -8,20 +8,13 @@ github_username:  hiddebraun-ma
 theme: "just-the-docs"
 remote_theme: "pmarsceill/just-the-docs"
 
-plugins:
-  - jekyll-feed
-
 exclude: [ "sources", "code-examples", "start.sh", ".idea" ]
 
 # Config theme
 # See: https://pmarsceill.github.io/just-the-docs/docs/configuration/
 # color_scheme: dark
-
-defaults:
-  -
-    values:
-      layout: "page"
-
+search:
+  heading_level: 1
 
 logo: "/assets/images/logo.png"
 
