@@ -14,6 +14,15 @@ Op deze website vind je korte video tutorials met uitleg bij de lessen Frontend 
 
 ---
 
+## Week 5 - Data weergeven
+Nu het grid in de basis is opgezet ga je data uit de backend ophalen en tonen.
+Dit kan het weerbericht zijn, gegevens over je huishoudelijke apparaten of misschien wel de weergave van je eigen IoT temperatuur en luchtvochtigheid sensor?
+
+[Aan de slag met data weergeven](data-weergeven){: .btn .btn-blue }
+
+
+---
+
 ## Week 4 - CSS Grid Responsive
 Hier ga je jouw eigen ontwerp in een paar stappen proberen om te zetten in HTML door gebruik te maken van je kennis van CSS grid.
 
