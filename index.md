@@ -14,12 +14,20 @@ Op deze website vind je korte video tutorials met uitleg bij de lessen Frontend 
 
 ---
 
-## Week 5 - Data weergeven
-Nu het grid in de basis is opgezet ga je data uit de backend ophalen en tonen.
+## Week 6 - Live weerbericht
+Er zijn veel andere databronnen die je kunt gebruiken en waarvan je gegevens kunt tonen.
+Door gebruik te maken van een externa website sie weergegevensEen live weerbericht 
 Dit kan het weerbericht zijn, gegevens over je huishoudelijke apparaten of misschien wel de weergave van je eigen IoT temperatuur en luchtvochtigheid sensor?
 
 [Aan de slag met data weergeven](data-weergeven){: .btn .btn-blue }
 
+---
+
+## Week 5 - Data weergeven
+Nu het grid in de basis is opgezet ga je data uit de backend ophalen en tonen.
+In de eerste week gaan we gegevens van huishoudelijke apparaten ophalen uit de backend en tonen in een gebied van je dashboard.
+
+[Aan de slag met data weergeven](data-weergeven){: .btn .btn-blue }
 
 ---
 

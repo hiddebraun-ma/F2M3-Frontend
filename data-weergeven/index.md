@@ -10,25 +10,20 @@ nav_order: 4
 
 # {{ page.title }}
 
-{% include youtube.md video="AWV0VXqVi2Y" %}
+## Data op het dashboard tonen
 
-## CSS Grid gebruiken voor een responsive dashboard
-Het is belangrijk dat je dashboard op ALLE schermgroottes er goed uitziet en dat de inhoud gebruiksvriendelijke wordt getoond.
-Je dashboard moet zich daarom aanpassen aan de grootte van het scherm waarop het dashboard getoond wordt.
-Als dat gebeurt, is je website **responsive**.
-
-![Responsive](images/responsive.png)
 
 In de komende video's leer je over:
 
-- Mobile First werkwijze. 
-- Viewport goed zetten in je HTML.
-- Grid Areas gebruiken om CSS Grid indeling makkelijker in te kunnen stellen.
-- CSS Media queries gebruiken om je HTML/CSS responsive te maken.
+- XMLHttpRequest gebruiken om gegevens op te halen (herhaling)
+- JSON verwerken mert Javascript (herhaling)
+- "Loading..." animatie laten zien tijdens laden van gegevens
+- Gegevens in een Grid item schrijven
+- Gegevens opmaken met
 
 ---
 
-[Responsive dashboard maken met CSS Grid](1-responsive-design){: .btn .btn-purple .fs-6 }
+[Starten met data op het dashboard](1-responsive-design){: .btn .btn-purple .fs-6 }
 
 
 

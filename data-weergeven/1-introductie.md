@@ -1,5 +1,5 @@
 ---
-title: Responsive layout
+title: Introductie
 layout: page
 parent: Data weergeven
 nav_order: 1
@@ -17,9 +17,5 @@ TODO
 ---
 
 {% include bewijs.md %}
-
----
-
-[Mobile first](2-mobile-first){: .btn .btn-purple .fs-6 }
 
 
