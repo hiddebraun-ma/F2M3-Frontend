@@ -8,8 +8,8 @@ github_username:  hiddebraun-ma
 theme: "just-the-docs"
 remote_theme: "pmarsceill/just-the-docs"
 
-plugins:
-  - jekyll-feed
+#plugins:
+#  - jekyll-feed
 
 exclude: [ "sources", "code-examples", "start.sh", ".idea" ]
 
