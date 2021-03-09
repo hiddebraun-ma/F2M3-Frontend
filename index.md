@@ -15,8 +15,8 @@ Op deze website vind je korte video tutorials met uitleg bij de lessen Frontend 
 ---
 
 ## Week 5 - Data weergeven
-Nu het grid in de basis is opgezet ga je data uit de backend ophalen en tonen.
-In de eerste week gaan we gegevens van huishoudelijke apparaten ophalen uit de backend en tonen in een gebied van je dashboard.
+Nu het dashboard grid layout is gemaakt in HTML en CSS kun je de layout gaan vullen met gegevens, grafieken, afbeeldingen en andere informatie.
+In deze les gaan we met de ingevoerde meterstanden in de backend database, de energiekosten tonen op je dashboard.
 
 [Aan de slag met data weergeven](data-weergeven){: .btn .btn-blue }
 

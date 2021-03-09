@@ -1,0 +1,44 @@
+body {
+    background-color: antiquewhite;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.appliance-usage {
+    background: #ffffff;
+    border-radius: 10px;
+}
+
+.appliance-usage h1 {
+    margin-top: 0
+}
+
+.hidden {
+    display: none;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.wrapper > * {
+    margin-bottom: 20px;
+}
+
+.usage {
+    background-size: 120px;
+    background-repeat: no-repeat;
+    background-position: 30px center;
+}
+
+.usage h1 {
+    margin-top: 0;
+    color: #059d00;
+}
+
+.usage h2 {
+    margin-top: 0;
+    color: #0000ff;
+}

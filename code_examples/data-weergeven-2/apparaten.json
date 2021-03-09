@@ -1,0 +1,14 @@
+[
+  {
+    "naam": "Strijkijzer",
+    "kwh": 2000,
+    "image": "images/strijkijzer.jpg",
+    "code": "STR"
+  },
+  {
+    "naam": "Koffiezetapparaat",
+    "kwh": 750,
+    "image": "images/koffie.jpg",
+    "code": "KOF"
+  }
+]

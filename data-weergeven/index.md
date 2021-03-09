@@ -12,14 +12,19 @@ nav_order: 4
 
 ## Data op het dashboard tonen
 
+Je hebt nu een (nog leeg?) Grid dat je kunt gaan vullen met inhoud.
+In deze les ga je een interactieve "widget" maken waarmee je het verbruik en de kosten van verschillende apparaten kunt berekenen.
 
-In de komende video's leer je over:
+Hiervoor laad je een extern JSON bestand met gegevens van huishoudelijke apparaten en hun verbruik.
+Je maakt een lijstje met apparaten waar je uit kunt kiezen. Na de keuze van het apparaat wordt de afbeelding getoond en het verbruik en de kosten dynamisch berekend.
+
+Om dit te kunnen maken leer je in de komende video's over:
 
 - XMLHttpRequest gebruiken om gegevens op te halen (herhaling)
-- JSON verwerken mert Javascript (herhaling)
-- "Loading..." animatie laten zien tijdens laden van gegevens
-- Gegevens in een Grid item schrijven
-- Gegevens opmaken met
+- JSON verwerken met Javascript (herhaling)
+- HTML-elementen maken, tonen en verbergen in het Document Object Model.
+- Luisteren en reageren op events met Javascript.
+- Eigen berekening laten uitvoeren en het resultaat tonen.
 
 ---
 
