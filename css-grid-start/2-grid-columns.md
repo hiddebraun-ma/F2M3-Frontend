@@ -13,7 +13,6 @@ nav_order: 3
 ---
 
 ## Opdrachten
-
 {: .text-green-200}
 
 Met de kennis uit de video:

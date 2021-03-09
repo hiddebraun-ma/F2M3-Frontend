@@ -11,9 +11,8 @@ nav_order: 4
 
 ---
 
-
-## Opdrachten 
-{: .text-green-100}
+## Opdrachten
+{: .text-green-200}
 
 Met de kennis uit de video: 
 - [ ] Voeg aan je CSS Grid nu minstens 2 rijen toe

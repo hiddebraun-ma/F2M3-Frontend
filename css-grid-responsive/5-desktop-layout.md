@@ -11,11 +11,14 @@ nav_order: 5
 
 ---
 
-## Opdrachten 
-{: .text-green-100}
+## Opdrachten
+{: .text-green-200}
 
-Met de kennis uit de video: 
-- [ ]
+Met de kennis uit de video:
+
+1. Kijk hoeveel kolommen en rijen je nodig hebt voor je desktop-weergave
+2. Stel je kolommen en rijen voor de desktop in.
+
 
 ---
 

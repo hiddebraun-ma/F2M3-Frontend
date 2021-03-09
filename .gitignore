@@ -3,4 +3,6 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
+.idea
+.vscode
 _config_local.yml

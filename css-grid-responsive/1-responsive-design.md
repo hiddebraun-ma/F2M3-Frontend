@@ -11,11 +11,14 @@ nav_order: 2
 
 ---
 
-### Opdrachten
-- [ ] Maak een desktop grid layout op papier zoals in de video.
-- [ ] Geef alle onderdelen in je grid een korte naam.
-- [ ] Maak ook mobiele versie zoals in de video. 
-- [ ] Zet bij de mobiele versie alle onderdelen van de desktop versie onder elkaar en zet de juiste namen er in.
+## Opdrachten
+{: .text-green-200}
+
+* Maak een schets op voor je CSS-grid voor:
+  -	Mobile
+  - Desktop
+
+* Maak een screenshot en plaats deze op Github.
 
 ![Mobile first](images/mobile-first.png)
 

@@ -11,7 +11,8 @@ nav_order: 2
 
 ---
 
-### Opdrachten
+## Opdrachten
+{: .text-green-200}
 
 - [ ] Maak zoals in de video een nieuw HTML-bestand met een `<style>` block in de `<head>`.
 - [ ] Maak in de HTML een *grid container* div (zie video).

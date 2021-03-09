@@ -14,8 +14,7 @@ nav_order: 4
 ## Opdrachten 
 {: .text-green-100}
 
-Met de kennis uit de video: 
-- [ ] 
+- Zorg dat de mobile versie (beeld dat lager is dan 600px breed) een blauwe kleur krijgt.
 
 ## Hulp
 

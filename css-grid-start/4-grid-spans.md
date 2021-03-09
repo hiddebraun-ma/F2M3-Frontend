@@ -12,8 +12,8 @@ nav_order: 5
 ---
 
 
-## Opdrachten 
-{: .text-green-100}
+## Opdrachten
+{: .text-green-200}
 
 Met de kennis uit de video: 
 - [ ] Pas je grid aan, zodat in ieder geval 1 vakje in het grid **meerdere kolommen breed** is, zoals bijvoorbeeld [in deze afbeelding](images/column-span-example.png){: target="_blank" }
