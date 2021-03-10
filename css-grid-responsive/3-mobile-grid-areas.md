@@ -7,7 +7,7 @@ nav_order: 3
 
 # {{ page.title }}
 
-{% include youtube.md video="x6WXA7n3wbM" %}
+{% include youtube.md video="04w875_3iCM" %}
 
 ---
 
@@ -16,11 +16,9 @@ nav_order: 3
 
 Met de kennis uit de video:
 
-1. Maak een HTML- en CSS-bestand aan en geef je website een achtergrondkleurtje.
-2. Maak een Grid met zes DIV-jes en zorg dat ze een border en padding (bijv. 15px) hebben.
-3. Zorg dat er op de tweede rij twee even grote kolommen komen.
-4. Geef de div-classes een aparte naam en geef minimaal 3 items een andere achtergrondkleur.
-
+1. Schrijf op papier of in een tekst documentje de indeling van je grid met de juiste "area" namen.
+2. Koppel nu de juiste `grid-area` naam aan de juiste class in je CSS bestand.
+3. Zorg dat het mobiele grid klopt voor je verder gaat.
 
 ---
 
