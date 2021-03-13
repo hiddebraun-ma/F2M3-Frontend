@@ -11,6 +11,25 @@ nav_order: 6
 
 ---
 
+### Code
+
+Voor de `berekenJaarVerbruik` function:
+```js
+const minutenPerJaar = minuten_per_dag * 365;
+const urenPerJaar = minutenPerJaar / 60;
+const wattPerJaar = urenPerJaar * vermogen;
+const kwhPerJaar = wattPerJaar / 1000;
+```
+
+Voor de `berekenJaarKosten` function:
+```js
+const prijsPerKwH = 0.2;
+const kwhPerJaar = berekenJaarVerbruik(minuten_per_dag, vermogen);
+const price = kwhPerJaar * prijsPerKwH;
+```
+
+---
+
 ### Opdrachten
 
 
@@ -20,4 +39,4 @@ nav_order: 6
 
 ---
 
-[Apparaat DIV instellen](4-apparaat-div-2){: .btn .btn-purple .fs-6 }
+[Eindopdracht](7-opdracht.md){: .btn .btn-purple .fs-6 }

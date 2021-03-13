@@ -26,6 +26,9 @@ In de komende video's leer je over:
 - Grid Areas gebruiken om CSS Grid indeling makkelijker in te kunnen stellen.
 - CSS Media queries gebruiken om je HTML/CSS responsive te maken.
 
+De lengte van alle video's bij elkaar is ongeveer 60 minuten.
+{: .fs-6 .text-blue-000}
+
 ---
 
 [Responsive dashboard maken met CSS Grid](1-responsive-design){: .btn .btn-purple .fs-6 }

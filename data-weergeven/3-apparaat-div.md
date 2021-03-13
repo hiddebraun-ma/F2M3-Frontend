@@ -11,9 +11,23 @@ nav_order: 3
 
 ---
 
+### Code
+
+Code van het data object (zoals in de video wordt uitgelegd)
+
+```js
+// Zet alle benodigde informatie in een zelfgemaakt object
+let data = {
+  container: apparaatDiv, // De verwijzing het div element
+  apparaat: apparaat, // De apparaatgegevens
+  weergave: "kosten", // Welke weergave je standaard wilt
+  prijs_kwh: 0.2, // De prijs voor 1 KwH electriciteit
+};
+```
+
+---
 
 ### Opdrachten
-
 
 ---
 
