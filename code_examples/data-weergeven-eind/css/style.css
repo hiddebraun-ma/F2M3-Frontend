@@ -1,0 +1,66 @@
+body {
+    background-color: antiquewhite;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.apparaat {
+    padding: 10px;
+    background: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: 120px;
+    background-repeat: no-repeat;
+    background-position: 30px center;
+    margin-bottom: 20px;
+}
+
+.apparaat h1 {
+    margin-top: 0;
+    color: #059d00;
+}
+
+.apparaat h2 {
+    margin-top: 0;
+    color: #0000ff;
+}
+
+.apparaat button {
+    font-size: 18px;
+    padding: 10px;
+    background-color: #025f0e;
+    color: #ffffff;
+    border: 0;
+    border-radius: 5px;
+}
+
+.header {
+    background-color: green;
+    font-size: 28px;
+    color: #ffffff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+@media screen and (min-width: 900px) {
+    .header {
+        grid-area: header
+    }
+    .phone {
+        grid-area: phone;
+    }
+    .ledtv {
+        grid-area: ledtv;
+    }
+    .stofzuiger {
+        grid-area: stofzuiger;
+    }
+    #dashboard {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 20px;
+        grid-template-areas: "header header header" "phone ledtv stofzuiger";
+    }
+}

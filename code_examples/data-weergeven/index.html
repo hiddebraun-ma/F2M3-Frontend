@@ -2,80 +2,23 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Green Machine</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/appliances.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/apparaten.js"></script>
 </head>
 
 <body>
-<div id="dashboard">
-    <div class="appliance-usage" data-id="KOF">
-        <div class="loader">
-            <div class="wrapper">
-                <img src="images/loading.gif">
-                <em>Loading</em>
-            </div>
+    <div class="apparaat" data-id="PHO">
+        <h1>Titel apparaat</h1>
+        <div>
+            <p>minuten per dag: <span>0</span></p>
+            <input type="range" min="0" max="240" step="10" value="15" />
         </div>
-        <div class="usage hidden">
-            <div class="wrapper">
-                <h1>--</h1>
-                <div>
-                    <p>
-                        minuten per dag: <span>15</span>
-                    </p>
-                    <input type="range" min="0" max="240" step="10" value="15"/>
-                </div>
-                <h2>--</h2>
-                <button>Toon verbruik</button>
-            </div>
-        </div>
+        <h2>Verbruik of kosten</h2>
+        <button>Toon verbruik</button>
     </div>
-    <div class="appliance-usage" data-id="STR">
-        <div class="loader">
-            <div class="wrapper">
-                <img src="images/loading.gif">
-                <em>Loading</em>
-            </div>
-        </div>
-        <div class="usage hidden">
-            <div class="wrapper">
-                <h1>--</h1>
-                <div>
-                    <p>
-                        minuten per dag: <span>15</span>
-                    </p>
-                    <input type="range" min="0" max="240" step="10" value="15"/>
-                </div>
-                <h2>--</h2>
-                <button>Toon verbruik</button>
-            </div>
-        </div>
-    </div>
-    <div class="appliance-usage" data-id="PS5">
-        <div class="loader">
-            <div class="wrapper">
-                <img src="images/loading.gif">
-                <em>Loading</em>
-            </div>
-        </div>
-        <div class="usage hidden">
-            <div class="wrapper">
-                <h1>--</h1>
-                <div>
-                    <p>
-                        minuten per dag: <span>15</span>
-                    </p>
-                    <input type="range" min="0" max="240" step="10" value="15"/>
-                </div>
-                <h2>--</h2>
-                <button>Toon verbruik</button>
-            </div>
-        </div>
-    </div>
-</div>
 </body>
+
 </html>

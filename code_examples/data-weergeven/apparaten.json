@@ -1,20 +1,6 @@
-[
-  {
-    "naam": "Strijkijzer",
-    "kwh": 2000,
-    "image": "images/strijkijzer.jpg",
-    "code": "STR"
-  },
-  {
-    "naam": "Koffiezetapparaat",
-    "kwh": 750,
-    "image": "images/koffie.jpg",
-    "code": "KOF"
-  },
-  {
-    "naam": "Playstation 5",
-    "kwh": 135,
-    "image": "images/ps5.png",
-    "code": "PS5"
-  }
-]
+[{
+    "naam": "Smartphone",
+    "vermogen": 5,
+    "image": "images/smartphone.jpg",
+    "code": "PHO"
+}]

@@ -1,0 +1,19 @@
+[{
+        "naam": "Smartphone",
+        "vermogen": 5,
+        "image": "images/smartphone.jpg",
+        "code": "PHO"
+    },
+    {
+        "naam": "TV / Ledscherm",
+        "vermogen": 40,
+        "image": "images/led_tv.jpg",
+        "code": "TVLED"
+    },
+    {
+        "naam": "Stofzuiger",
+        "vermogen": 1880,
+        "image": "images/stofzuiger.jpg",
+        "code": "STOF"
+    }
+]
