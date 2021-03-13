@@ -6,7 +6,7 @@
 
 #### Opdrachten
 - Body achtergrond kleur
-- Google Font inalden en als default font zetten?
+- Google Font inladen en als default font zetten?
 
 ---
 
@@ -66,7 +66,7 @@ CSS:
 ```
 
 
-### Video 5 - Afmaken 
+### Video 6 - Afmaken 
 6:08
 - Berekeningen maken
 

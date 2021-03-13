@@ -22,13 +22,13 @@ Om dit te kunnen maken leer je in de komende video's over:
 
 - XMLHttpRequest gebruiken om gegevens op te halen (herhaling)
 - JSON verwerken met Javascript (herhaling)
-- HTML-elementen maken, tonen en verbergen in het Document Object Model.
+- HTML-elementen ophalen en wijzigen via het Document Object Model.
 - Luisteren en reageren op events met Javascript.
-- Eigen berekening laten uitvoeren en het resultaat tonen.
+- Eigen berekening laten uitvoeren en het resultaat dynamisch weergeven.
 
 ---
 
-[Starten met data op het dashboard](1-responsive-design){: .btn .btn-purple .fs-6 }
+[Intro en code download](1-introductie){: .btn .btn-purple .fs-6 }
 
 
 
