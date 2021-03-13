@@ -66,6 +66,8 @@ h3 {
         height: 100vh;
         grid-template-columns: 200px 1fr 1fr 200px;
         grid-template-rows: 100px 1fr 1fr;
-        grid-template-areas: "header   header   header   header" "cost     controls controls weather" "graph    graph    kwh      weather";
+        grid-template-areas: "header   header   header   header"
+                             "cost     controls controls weather"
+                             "graph    graph    kwh      weather";
     }
 }
