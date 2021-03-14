@@ -32,6 +32,7 @@ const price = kwhPerJaar * prijsPerKwH;
 
 ### Opdrachten
 
+TODO
 
 ---
 

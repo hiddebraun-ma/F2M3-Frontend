@@ -11,21 +11,9 @@ nav_order: 2
 
 ---
 
-### Code
-
-Object met alle benodigde data:
-
-```js
-let data = {
-    container: apparaatDiv, // De verwijzing het div element
-    apparaat: apparaat, // De apparaatgegevens
-    weergave: "kosten", // Welke weergave je standaard wilt
-    prijs_kwh: 0.2, // De prijs voor 1 KwH electriciteit
-};
-```
-
 ### Opdrachten
-
+- [ ] Geef de pagina body alvast een achtergrond kleurtje.
+- [ ] Laad een Google Font in en stel de `font-family` in in je CSS.
 
 ---
 

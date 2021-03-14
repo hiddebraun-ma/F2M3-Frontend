@@ -28,7 +28,9 @@ let data = {
 ---
 
 ### Opdrachten
-
+- [ ] Bekijk de PDF en voeg een zelfgekozen apparaat toe aan het `apparaten.json` bestand.
+- [ ] Zoek een foto voor het apparaat en gebruik deze voor het apparaat in het JSON-bestand.
+- [ ] Verklein de foto, zodat deze maximaal 400 pixels breed is.
 ---
 
 {% include bewijs.md %}

@@ -11,12 +11,6 @@ nav_order: 4
 
 ---
 
-### Opdrachten
-
-TODO
-
----
-
 ### Code 
 Nodig bij het kijken van de video:
 
@@ -51,6 +45,14 @@ knop.addEventListener("click", () => {
 updateGegevens(data);
 ```
 ---
+
+### Opdrachten
+
+- [ ] Kijk [met hulp van deze uitleg](https://www.w3schools.com/howto/howto_js_rangeslider.asp){: target="_blank"} of je de slider mooier stijlen
+- [ ] Maak ook de `button` mooier. Gebruik de [W3 Schools uitleg](https://www.w3schools.com/css/css3_buttons.asp){: target="_blank"} of de [uitleg van CSS Tricks](https://css-tricks.com/a-complete-guide-to-links-and-buttons/){: target="_blank"}. 
+
+---
+
 
 {% include bewijs.md %}
 

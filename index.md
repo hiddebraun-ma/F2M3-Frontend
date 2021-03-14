@@ -16,7 +16,7 @@ Op deze website vind je korte video tutorials met uitleg bij de lessen Frontend 
 
 ## Week 5 - Data weergeven
 Nu het dashboard grid layout is gemaakt in HTML en CSS kun je de layout gaan vullen met gegevens, grafieken, afbeeldingen en andere informatie.
-In deze les gaan we met de ingevoerde meterstanden in de backend database, de energiekosten tonen op je dashboard.
+In deze les ga je het verbruik en de kosten van één of meer huishoudelijke apparaten laten zien op je dashboard.
 
 [Aan de slag met data weergeven](data-weergeven){: .btn .btn-blue }
 

@@ -28,6 +28,7 @@ CSS code om de achtergrond-afbeelding beter weer te geven en om van de apparaat 
 
 ### Opdrachten
 
+TODO
 
 ---
 
