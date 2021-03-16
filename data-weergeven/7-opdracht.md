@@ -1,5 +1,5 @@
 ---
-title: Opdracht
+title: Eindopdracht
 layout: page
 parent: Data weergeven
 nav_order: 7
@@ -7,10 +7,10 @@ nav_order: 7
 
 # {{ page.title }}
 
-TODO
-
-
-### Extra (hoeft niet, mag wel)
+- [ ] Maak voor minimaal vier apparaten een werkende slider met de juiste gegevens.
+- [ ] Zorg dat de apparaten in een CSS grid komen te staan,
+- [ ] Zorg ervoor dat je een aantrekkelijke opmaak maakt.
+- [ ] Extra: maak je CSS grid responsive.
 
 ---
 

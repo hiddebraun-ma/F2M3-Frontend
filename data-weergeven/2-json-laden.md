@@ -12,6 +12,10 @@ nav_order: 2
 ---
 
 ### Opdrachten
+- [ ] Zorg dat je kunt uitleggen waarom arrays in een JSON worden bepaald.
+- [ ] Gebruik console.log om de informatie uit het JSON-bestand te kunnen bekijken.
+
+### Als je het leuk vindt
 - [ ] Geef de pagina body alvast een achtergrond kleurtje.
 - [ ] Laad een Google Font in en stel de `font-family` in in je CSS.
 

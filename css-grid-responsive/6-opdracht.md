@@ -1,5 +1,5 @@
 ---
-title: Opdracht
+title: Eiudopdracht
 layout: page
 parent: CSS Grid Responsive
 nav_order: 6
