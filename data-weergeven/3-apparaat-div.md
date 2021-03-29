@@ -28,9 +28,14 @@ let data = {
 ---
 
 ### Opdrachten
-- [ ] Bekijk de PDF en voeg een zelfgekozen apparaat toe aan het `apparaten.json` bestand.
+- [ ] Gebruik console.log om de NodeList te bekijken.
+- [ ] Zet in je JS-bestand de informatie die bij de objecten horen.
+  
+### Als je het leuk vindt
+- [ ] Kies uit de PDF een apparaat en voeg de juiste gegevens toe aan het `apparaten.json` bestand.
 - [ ] Zoek een foto voor het apparaat en gebruik deze voor het apparaat in het JSON-bestand.
 - [ ] Verklein de foto, zodat deze maximaal 400 pixels breed is.
+
 ---
 
 {% include bewijs.md %}

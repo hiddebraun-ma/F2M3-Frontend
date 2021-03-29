@@ -11,15 +11,17 @@ const laadJSON = (url) => {
   // het XMLHttpRequest object maken
   const aanvraag = new XMLHttpRequest();
 
-  // Omschrijf wat er moet gebeuren ALS je de data succesvol binnen hebt
+  // omschrijf wat er moet gebeuren ALS je de data succesvol binnen hebt
   aanvraag.onreadystatechange = () => {
     if (aanvraag.readyState === 4 && aanvraag.status === 200) {
       let jsonText = aanvraag.responseText;
-      console.log(typeof jsonText);
 
+      // Ze de JSON tekst om in een Javascript array met JSON.parse()
+      // Sla het resultaat op in de variabele: apparaten
       apparaten = JSON.parse(jsonText);
-      console.log(typeof apparaten);
-      console.log(apparaten);
+
+      // Roep de toonApparaten() function aan om alles te tonen
+      toonApparaten();
     }
   };
 
@@ -34,8 +36,8 @@ const toonApparaten = () => {
   //  Sla alle div's met de class "appraat" iop in de variabele containerDivs
   const apparaatDivs = document.querySelectorAll(".apparaat");
 
-// Gebruik een forEach loop om elk aparaat div te verwerken
-apparaatDivs.forEach((apparaatDiv) => {
+  // Gebruik een forEach loop om elk aparaat div te verwerken
+  apparaatDivs.forEach((apparaatDiv) => {
     // Haal de code van het apparaat op uit het attribuut "data-id"
     const code = apparaatDiv.attributes["data-id"].value;
 
@@ -45,18 +47,16 @@ apparaatDivs.forEach((apparaatDiv) => {
     });
 
     // Zet alle benodigde informatie in een zelfgemaakt object
-    // Zet alle benodigde informatie in een zelfgemaakt object
     let data = {
-        container: apparaatDiv, // De verwijzing het div element
-        apparaat: apparaat, // De apparaatgegevens
-        weergave: "kosten", // Welke weergave je standaard wilt
-        prijs_kwh: 0.2, // De prijs voor 1 KwH electriciteit
+      container: apparaatDiv, // De verwijzing het div element
+      apparaat: apparaat, // De apparaatgegevens
+      weergave: "kosten", // Welke weergave je standaard wilt
+      prijs_kwh: 0.2, // De prijs voor 1 KwH electriciteit
     };
 
     // Geef het data object aan de maakWidget function.
     maakWidget(data);
   });
-
 };
 
 const maakWidget = (data) => {
@@ -70,7 +70,26 @@ const maakWidget = (data) => {
   const minuten = apparaatDiv.querySelector("span");
   const knop = apparaatDiv.querySelector("button");
 
-  // HIER KOMT CODE DIE UITGELEGD WORDT IN DE VIDEO
+  // Achtergrond afbeelding zetten
+  apparaatDiv.style.backgroundImage = `url(${data.apparaat.image})`;
+
+  slider.addEventListener("input", (event) => {
+    minuten.innerHTML = slider.value;
+    updateGegevens(data);
+  });
+
+  knop.addEventListener("click", () => {
+    if (knop.innerText === "Toon verbruik") {
+      data.weergave = "verbruik";
+      knop.innerText = "Toon kosten";
+    } else {
+      data.weergave = "kosten";
+      knop.innerText = "Toon verbruik";
+    }
+    updateGegevens(data);
+  });
+
+  updateGegevens(data);
 };
 
 const updateGegevens = (data) => {
@@ -82,27 +101,42 @@ const updateGegevens = (data) => {
   const nummer = apparaatDiv.querySelector("h2");
   const slider = apparaatDiv.querySelector("input");
 
-  // HIER KOMT CODE DIE UITGELEGD WORDT IN DE VIDEO
+  // Nu gegevens invullen van het apparaat!
+  titel.innerHTML = data.apparaat.naam;
+
+  // Aantal minuten uitlezen
+  const minutenPerDag = parseInt(slider.value);
+
+  if (data.weergave === "kosten") {
+    let jaarlijkseKosten = berekenJaarKosten(
+      minutenPerDag,
+      data.apparaat.vermogen
+    );
+    nummer.innerHTML = "€ " + jaarlijkseKosten + " per jaar";
+  } else {
+    let jaarlijksVerbruik = berekenJaarVerbruik(
+      minutenPerDag,
+      data.apparaat.vermogen
+    );
+    nummer.innerHTML = jaarlijksVerbruik + " KwH";
+  }
 };
 
 const berekenJaarVerbruik = (minuten_per_dag, vermogen) => {
-  // HIER KOMT CODE DIE UITGELEGD WORDT IN DE VIDEO
-  
-  //   const minutenPerJaar =
-  //   const urenPerJaar =
-  //   const wattPerJaar =
-  //   const kwhPerJaar =
+  const minutenPerJaar = minuten_per_dag * 365;
+  const urenPerJaar = minutenPerJaar / 60;
+  const wattPerJaar = urenPerJaar * vermogen;
+  const kwhPerJaar = wattPerJaar / 1000;
 
   return kwhPerJaar.toFixed(2);
 };
 
 const berekenJaarKosten = (minuten_per_dag, vermogen) => {
-  // HIER KOMT CODE DIE UITGELEGD WORDT IN DE VIDEO
+  const prijsPerKwH = 0.2;
+  const kwhPerJaar = berekenJaarVerbruik(minuten_per_dag, vermogen);
+  const price = kwhPerJaar * prijsPerKwH;
 
-  //   const prijsPerKwH = 0.2;
-  //   const kwhPerJaar =
-  //   const price =
-  //   return price.toFixed(2);
+  return price.toFixed(2);
 };
 
 //Hier begint alles.

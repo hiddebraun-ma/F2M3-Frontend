@@ -26,7 +26,7 @@ De lengte van alle video's bij elkaar is ongeveer 35 minuten.
 {: .fs-6 .text-blue-000}
 
 ---
-[Aan de slag met CSS Grid](1-grid-container){: .btn .btn-purple .fs-6 }
+[Aan de slag met CSS Grid](1-grid-container){: .btn .btn-purple                                                                                                                                                                                                                                                                                                                                                                                                          .fs-6 }
 
 ---
 

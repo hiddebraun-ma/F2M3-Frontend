@@ -14,7 +14,6 @@ nav_order: 4
 ### Code 
 Nodig bij het kijken van de video:
 
-
 Om achtergrond image in te stellen:
 ```js
 // Achtergrond afbeelding zetten
@@ -47,8 +46,12 @@ updateGegevens(data);
 ---
 
 ### Opdrachten
+- [ ] Stel de achtergrondafbeelding in.
+- [ ] Zorg dat de slider wordt uitgelezen.
+- [ ] Zorg dat de minuten worden aangepast als je de slider beweegt.
 
-- [ ] Kijk [met hulp van deze uitleg](https://www.w3schools.com/howto/howto_js_rangeslider.asp){: target="_blank"} of je de slider mooier stijlen
+### Als je het leuk vindt
+- [ ] Kijk [met hulp van deze uitleg](https://www.w3schools.com/howto/howto_js_rangeslider.asp){: target="_blank"} of je de slider mooier kunt stijlen.
 - [ ] Maak ook de `button` mooier. Gebruik de [W3 Schools uitleg](https://www.w3schools.com/css/css3_buttons.asp){: target="_blank"} of de [uitleg van CSS Tricks](https://css-tricks.com/a-complete-guide-to-links-and-buttons/){: target="_blank"}. 
 
 ---

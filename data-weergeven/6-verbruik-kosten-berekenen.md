@@ -31,8 +31,9 @@ const price = kwhPerJaar * prijsPerKwH;
 ---
 
 ### Opdrachten
-
-TODO
+- [ ] Maak de functie `berekenJaarVerbruik` aan
+- [ ] Maak de functie `berekenJaarKosten` aan.
+- [ ] Zoek op internet op hoeveel KwH jouw telefoon verbruikt op het moment dat deze wordt opgeladen en plaats deze eenheid in de functie `berekenJaarVerbruik`.
 
 ---
 
