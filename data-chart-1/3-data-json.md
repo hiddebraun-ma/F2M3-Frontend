@@ -12,9 +12,9 @@ nav_order: 3
 ---
 
 ### Opdrachten
-- Verplaats de data voor jouw chart naar een JSON bestand.
-- Gebruik de code uit vorige opdrachten om de JSON file in te laden.
-- Zet de JSON data om in een variabele met JSON.parse().
+- Verplaats de data voor jouw chart naar een JSON-bestand.
+- Gebruik de code uit vorige opdrachten om de JSON-file in te laden.
+- Zet de JSON-data om in een variabele met JSON.parse().
 - Geef de data vervolgens aan de `maakGrafiek` functie en gebruik het in de Chart code.
 
 ---

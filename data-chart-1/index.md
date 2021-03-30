@@ -24,7 +24,7 @@ In de laatste twee weken ga je aan de slag met het weergeven van gegevens in een
 - Aan het einde van deze les gebruikt jouw script gegevens uit een extern JSON-bestand om de chart te maken.
 - Volgende les ga je ervoor zorgen dat de gegevens uitje MySQL database worden gelezen met PHP.
 
-De lengte van alle video's bij elkaar is ongeveer 10 minuten.
+De lengte van alle video's bij elkaar is ongeveer 15 minuten.
 {: .fs-6 .text-blue-000}
 
 ---

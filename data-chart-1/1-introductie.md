@@ -13,9 +13,11 @@ nav_order: 1
 
 
 ### Opdrachten
-- [Download de starter-code](download/data-chart.zip) en zet deze bestanden in Week 7 van je Frontend repository.
+- Maak een nieuwe map `Week 7` in je Frontend repository.
+- [Download de starter-code](download/data-chart.zip) en pak de bestanden uit in de map `Week 7`.
 - Volg de korte instructies in de video om de [Chartist chart library](https://gionkunz.github.io/chartist-js/index.html){: target="_blank" } te laden
-- Zorg dat de `style.css` en de `grafiek.js` ook bovenin de HEAD worden ingeladen
+- Zorg dat de `style.css` en de `grafiek.js` ook bovenin de HEAD worden geladen.
+- Gebruik de live server extensie van Visual Studio Code.
 
 ---
 
