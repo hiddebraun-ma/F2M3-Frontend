@@ -21,4 +21,4 @@ nav_order: 2
 
 ---
 
-[Voorbeeld chart maken](2-voorbeeld-chart){: .btn .btn-purple .fs-6 }
+[Chart data met JSON](3-data-json){: .btn .btn-purple .fs-6 }
