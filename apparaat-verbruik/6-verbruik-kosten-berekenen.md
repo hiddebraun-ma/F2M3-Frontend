@@ -1,7 +1,7 @@
 ---
 title: Verbruik en kosten berekenen
 layout: page
-parent: Data weergeven
+parent: Apparaat verbruik
 nav_order: 6
 ---
 

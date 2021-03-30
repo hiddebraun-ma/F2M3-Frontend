@@ -1,7 +1,7 @@
 ---
 title: Image, slider en button
 layout: page
-parent: Data weergeven
+parent: Apparaat verbruik
 nav_order: 4
 ---
 

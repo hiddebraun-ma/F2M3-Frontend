@@ -1,7 +1,7 @@
 ---
 title: Intro en code download
 layout: page
-parent: Data weergeven
+parent: Apparaat verbruik
 nav_order: 1
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: JSON inladen
 layout: page
-parent: Data weergeven
+parent: Apparaat verbruik
 nav_order: 2
 ---
 

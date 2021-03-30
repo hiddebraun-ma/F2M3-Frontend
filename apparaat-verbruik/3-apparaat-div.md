@@ -1,7 +1,7 @@
 ---
 title: Apparaat DIV setup
 layout: page
-parent: Data weergeven
+parent: Apparaat verbruik
 nav_order: 3
 ---
 

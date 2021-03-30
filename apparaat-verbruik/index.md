@@ -1,5 +1,5 @@
 ---
-title: Data weergeven
+title: Apparaat verbruik
 layout: page
 permalink: :path/:basename
 has_children: true
