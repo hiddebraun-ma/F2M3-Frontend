@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For in</title>
+    <script>
+        const person = {
+            naam: "Hidde",
+            age: 45,
+            city: "Amsterdam"
+        };
+        const startLoop = () => {
+            for (prop of Object.keys(person)) {
+
+                let div = document.createElement('div');
+
+                // De property en de value tonen
+                div.innerHTML = `${prop} = ${person[prop]}`;
+
+                div.style.fontSize = '48px';
+                document.body.appendChild(div);
+            }
+        }
+
+        window.addEventListener('DOMContentLoaded', startLoop);
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
