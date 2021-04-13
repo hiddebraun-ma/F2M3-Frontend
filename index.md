@@ -13,6 +13,16 @@ Op deze website vind je korte video tutorials met uitleg bij de lessen Frontend 
 *Bij elke les/onderwerp hoort een afsluitende opdracht. Deze maak je lever je in. Zo toon je aan dat je de uitleg snapt en kan toepassen in je eigen code.*{: .fs-6 .text-blue-000 }
 
 ---
+
+## Week 9 - Live Weerbericht via een API  
+Hoe krijg je toegang tot een [API](https://programmeerplaats.nl/wat-is-een-api/){: target="_blank"} en maak je zelf iets moois met de data van bijvoorbeeld het KNMI.
+Je gaat een live weerbericht widget maken met het laatste weerbericht, en uiteraard werkt dat ook met JSON-data. 
+
+[Weather API](weather-api){: .btn .btn-blue }
+
+## Week 8 - Vervolg charts
+Voor deze week zijn geen extra video's
+
 ## Week 7 - Data weergeven met een chart - deel 1
 Wat niet mag ontbreken is een mooie grafiek of "chart" met gegevens. Er zijn veel verschillende soorten grafieken.
 Ook zijn er kant-en-klare chart "libraries" in Javascript die je kunt gebruiken.
