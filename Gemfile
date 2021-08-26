@@ -16,7 +16,7 @@ gem "minima", "~> 2.5"
 # gem "github-pages", group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "github-pages", "~> 212"
+  gem "github-pages"
 #  gem "jekyll-feed", "~> 0.12"
 end
 
@@ -35,3 +35,4 @@ gem "just-the-docs"
 gem "addressable", ">= 2.8.0"
 gem "nokogiri", ">= 1.11.4"
 gem "rexml", ">= 3.2.5"
+gem "kramdown", ">= 2.3.1"
